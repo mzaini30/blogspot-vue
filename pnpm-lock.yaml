@@ -6,6 +6,7 @@ specifiers:
   '@vitejs/plugin-vue': ^2.3.1
   '@vueuse/head': ^0.7.6
   markdown-it-prism: ^2.2.4
+  prettier: ^2.6.2
   prism-theme-vars: ^0.2.2
   unocss: ^0.34.1
   unplugin-vue-components: ^0.19.6
@@ -28,6 +29,7 @@ devDependencies:
   '@vitejs/plugin-vue': 2.3.2_vite@2.9.8+vue@3.2.33
   '@vueuse/head': 0.7.6_vue@3.2.33
   markdown-it-prism: 2.2.4
+  prettier: 2.6.2
   prism-theme-vars: 0.2.2
   unocss: 0.34.1_vite@2.9.8
   unplugin-vue-components: 0.19.6_vite@2.9.8+vue@3.2.33

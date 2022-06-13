@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite-ssg build",
+    "build": "vite-ssg build && prettier --write \"**/*.html\"",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -13,6 +13,7 @@
     "@vitejs/plugin-vue": "^2.3.1",
     "@vueuse/head": "^0.7.6",
     "markdown-it-prism": "^2.2.4",
+    "prettier": "^2.6.2",
     "prism-theme-vars": "^0.2.2",
     "unocss": "^0.34.1",
     "unplugin-vue-components": "^0.19.6",
