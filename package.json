@@ -19,7 +19,7 @@
     "unplugin-vue-components": "^0.19.6",
     "vite": "^2.9.7",
     "vite-plugin-md": "^0.13.1",
-    "vite-plugin-pages": "^0.23.0",
+    "vite-plugin-pages": "^0.24.0",
     "vite-plugin-pages-sitemap": "^1.2.2",
     "vite-plugin-vue-inspector": "^1.0.1",
     "vite-plugin-vue-layouts": "^0.6.0",
