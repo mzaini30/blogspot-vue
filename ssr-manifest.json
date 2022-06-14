@@ -1,0 +1,26 @@
+{
+  "vite/modulepreload-polyfill": [],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "src/App.vue?vue&type=style&index=0&lang.css": [],
+  "plugin-vue:export-helper": [],
+  "src/App.vue": [],
+  "node_modules/@unocss/reset/tailwind.css": [],
+  "../../../../../__uno.css": [],
+  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [],
+  "node_modules/@vueuse/head/dist/index.mjs": [],
+  "node_modules/vite-ssg/dist/chunks/state.mjs": [],
+  "node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [],
+  "node_modules/vite-ssg/dist/index.mjs": [],
+  "vite/preload-helper": [],
+  "src/pages/index.vue": [],
+  "../../../../../@vite-plugin-pages/generated-pages?id=virtual:generated-pages": [],
+  "src/main.ts": [],
+  "index.html": [],
+  "assets/app.3745ac7b.js-unocss-hash.css": [],
+  "src/pages/about.vue": [
+    "/assets/about.e0cf38c5.js"
+  ]
+}
