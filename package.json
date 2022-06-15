@@ -1,12 +1,13 @@
 {
-  "name": "coba-vite-vue",
+  "name": "blogspot-vue",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite-ssg build && prettier --write \"**/*.html\"",
     "preview": "vite preview",
-    "prettier": "prettier --write 'src/**/*.{vue,ts}'"
+    "prettier": "prettier --write 'src/**/*.{vue,ts}'",
+    "release": "bumpp --tag --commit --push"
   },
   "simple-git-hooks": {
     "pre-push": "npm run prettier"
@@ -16,6 +17,7 @@
     "@unocss/transformer-directives": "^0.35.1",
     "@vitejs/plugin-vue": "^2.3.1",
     "@vueuse/head": "^0.7.6",
+    "bumpp": "^7.1.1",
     "markdown-it-prism": "^2.2.4",
     "prettier": "^2.6.2",
     "prism-theme-vars": "^0.2.2",
