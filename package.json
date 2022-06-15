@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite-ssg build && prettier --write \"**/*.html\"",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier": "prettier --write 'src/**/*.{vue,ts}'"
+  },
+  "simple-git-hooks": {
+    "pre-push": "npm run prettier"
   },
   "devDependencies": {
     "@unocss/reset": "^0.35.0",
@@ -15,6 +19,7 @@
     "markdown-it-prism": "^2.2.4",
     "prettier": "^2.6.2",
     "prism-theme-vars": "^0.2.2",
+    "simple-git-hooks": "^2.8.0",
     "unocss": "^0.34.1",
     "unplugin-vue-components": "^0.19.6",
     "vite": "^2.9.7",

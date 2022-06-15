@@ -8,6 +8,7 @@ specifiers:
   markdown-it-prism: ^2.2.4
   prettier: ^2.6.2
   prism-theme-vars: ^0.2.2
+  simple-git-hooks: ^2.8.0
   unocss: ^0.34.1
   unplugin-vue-components: ^0.19.6
   vite: ^2.9.7
@@ -31,6 +32,7 @@ devDependencies:
   markdown-it-prism: 2.2.4
   prettier: 2.6.2
   prism-theme-vars: 0.2.2
+  simple-git-hooks: 2.8.0
   unocss: 0.34.1_vite@2.9.8
   unplugin-vue-components: 0.19.6_vite@2.9.8+vue@3.2.33
   vite: 2.9.8
@@ -2450,6 +2452,12 @@ packages:
 
   /signal-exit/3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
+    dev: true
+
+  /simple-git-hooks/2.8.0:
+    resolution: {integrity: sha512-ocmZQORwa6x9mxg+gVIAp5o4wXiWOHGXyrDBA0+UxGKIEKOyFtL4LWNKkP/2ornQPdlnlDGDteVeYP5FjhIoWA==}
+    hasBin: true
+    requiresBuild: true
     dev: true
 
   /sirv/2.0.2:
