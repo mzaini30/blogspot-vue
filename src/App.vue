@@ -3,7 +3,7 @@
 </template>
 
 <style>
-  [x-cloak]{
-    @apply hidden
-  }
+[x-cloak] {
+  @apply hidden;
+}
 </style>
