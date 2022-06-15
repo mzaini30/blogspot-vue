@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,F as n,a}from"./app.b54cd385.js";const c={},s=a("h1",null,"About",-1),r=a("p",null,"Ini adalah halaman about",-1);function _(l,u){return t(),o(n,null,[s,r],64)}var f=e(c,[["render",_]]);export{f as default};
