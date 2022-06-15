@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,F as s,a as e}from"./app.c737c80b.js";const c={},n=e("h1",null,"About...",-1),r=e("p",null,"This is about page",-1);function _(l,u){return a(),o(s,null,[n,r],64)}var d=t(c,[["render",_]]);export{d as default};
