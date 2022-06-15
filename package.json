@@ -4,10 +4,11 @@
   "version": "0.1.1",
   "scripts": {
     "dev": "vite",
-    "build": "vite-ssg build && prettier --write \"**/*.html\"",
+    "build": "vite-ssg build && prettier --write 'dist/**/*.html' && node scriptDist/modifyPages.mjs",
     "preview": "vite preview",
-    "prettier": "prettier --write 'src/**/*.{vue,ts}'",
-    "release": "bumpp --tag --commit --push"
+    "prettier": "prettier --write 'src/**/*.{vue,ts}' 'script/**/*.ts'",
+    "release": "bumpp --tag --commit --push",
+    "build:ts": "unbuild"
   },
   "simple-git-hooks": {
     "pre-push": "npm run prettier"
@@ -18,10 +19,12 @@
     "@vitejs/plugin-vue": "^2.3.1",
     "@vueuse/head": "^0.7.6",
     "bumpp": "^7.1.1",
+    "fast-glob": "^3.2.11",
     "markdown-it-prism": "^2.2.4",
     "prettier": "^2.6.2",
     "prism-theme-vars": "^0.2.2",
     "simple-git-hooks": "^2.8.0",
+    "unbuild": "^0.7.4",
     "unocss": "^0.34.1",
     "unplugin-vue-components": "^0.19.6",
     "vite": "^2.9.7",

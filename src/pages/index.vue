@@ -7,6 +7,6 @@
       toggle
     </button>
     <div x-show="open" class="mt-4">hello</div>
-    <router-link to="/about">go to about</router-link>
+    <p><router-link to="/about">go to about</router-link></p>
   </div>
 </template>
